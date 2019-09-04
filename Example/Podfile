@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WilliamTestLib_Example' do
+  pod 'WilliamTestLib', :path => '../'
+
+  target 'WilliamTestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
