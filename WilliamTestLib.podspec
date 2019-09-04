@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WilliamTestLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WilliamTestLib.'
+  s.summary          = 'WilliamTestLib, tested by William.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+WilliamTestLib, tested by William. WilliamTestLib, tested by William. WilliamTestLib, tested by William. WilliamTestLib, tested by William.
                        DESC
 
-  s.homepage         = 'https://github.com/847920189@qq.com/WilliamTestLib'
+  s.homepage         = 'https://github.com/William201509/WilliamTestLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '847920189@qq.com' => 'williamliuwei09@gmail.com' }
-  s.source           = { :git => 'https://github.com/847920189@qq.com/WilliamTestLib.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/liuwei/Downloads/workspace/ios/test/WilliamTestLib', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'WilliamTestLib' => ['WilliamTestLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
