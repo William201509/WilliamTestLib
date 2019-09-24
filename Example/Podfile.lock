@@ -1,0 +1,16 @@
+PODS:
+  - WilliamTestLib (0.1.0)
+
+DEPENDENCIES:
+  - WilliamTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  WilliamTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WilliamTestLib: 00b191d14501603478d90f2819c5c38c1f098d4e
+
+PODFILE CHECKSUM: 851ab4f20ae04a512fa342f162dc4a6374e92e21
+
+COCOAPODS: 1.7.5

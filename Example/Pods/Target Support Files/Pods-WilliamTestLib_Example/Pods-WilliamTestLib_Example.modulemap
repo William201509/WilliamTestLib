@@ -1,0 +1,6 @@
+framework module Pods_WilliamTestLib_Example {
+  umbrella header "Pods-WilliamTestLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
